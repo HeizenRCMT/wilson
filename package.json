@@ -1,0 +1,25 @@
+{
+  "name": "economybot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon tsc && node dist/index.js src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@slipher/cooldown": "https://pkg.pr.new/tiramisulabs/extra/@slipher/cooldown@91dc6b4",
+    "@types/node": "^25.2.0",
+    "dotenv": "^17.2.3",
+    "mongoose": "^9.1.5",
+    "nodemon": "^3.1.14",
+    "seyfert": "^4.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
